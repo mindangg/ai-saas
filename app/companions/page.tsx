@@ -1,6 +1,6 @@
 const CompanionsLibrary = () => {
     return (
-        <div>CCompanionsLibrary</div>
+        <div>CompanionsLibrary</div>
     )
 }
 
