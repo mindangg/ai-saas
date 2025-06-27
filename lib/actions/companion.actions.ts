@@ -13,7 +13,7 @@ export const createCompanion = async (formData: CreateCompanion) => {
                             .select()
 
     if (error || !data) 
-        throw new Error(error?.message || 'Failed to create new companion')
+        throw new Error(error?.message || 'Failed to create new companion');
 
     return data[0]
 }
